@@ -1,14 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Widgets.Data.MockDatabase;
+using Widgets.Data;
 
-/// <summary>
-/// There is no database so using MockData object!
-/// </summary>
-
-namespace Widgets.Data
+namespace Widgets.Tests.Mocks
 {
-    public class WidgetRepository : IWidgetRepository
+    public class MockWidgetRepository : IWidgetRepository
     {
         public Widget GetWidgetById(int id)
         {

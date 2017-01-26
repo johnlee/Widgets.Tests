@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using Widgets.Data;
 
-namespace Widgets.Data
+namespace Widgets.Tests.Mocks
 {
     public static class MockData
     {

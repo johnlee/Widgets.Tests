@@ -85,7 +85,7 @@
     <Compile Include="IOrderRepository.cs" />
     <Compile Include="IRepository.cs" />
     <Compile Include="IWidgetRepository.cs" />
-    <Compile Include="MockData\MockData.cs" />
+    <Compile Include="MockDatabase\MockData.cs" />
     <Compile Include="OrderRepository.cs" />
     <Compile Include="Repository.cs" />
     <Compile Include="WidgetRepository.cs" />

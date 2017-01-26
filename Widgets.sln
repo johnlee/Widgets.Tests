@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Widgets", "Widgets\Widgets.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Widgets.Data", "Widgets.Data\Widgets.Data.csproj", "{71F3A13A-44B7-4D38-8370-27DAEF6902A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Widgets.Tests", "Widgets.Tests\Widgets.Tests.csproj", "{EF383808-54F7-484C-A054-9E5CFB3D2372}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{71F3A13A-44B7-4D38-8370-27DAEF6902A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71F3A13A-44B7-4D38-8370-27DAEF6902A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71F3A13A-44B7-4D38-8370-27DAEF6902A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF383808-54F7-484C-A054-9E5CFB3D2372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF383808-54F7-484C-A054-9E5CFB3D2372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF383808-54F7-484C-A054-9E5CFB3D2372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF383808-54F7-484C-A054-9E5CFB3D2372}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
