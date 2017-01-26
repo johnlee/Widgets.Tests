@@ -1,6 +1,6 @@
 ﻿using System.Net.Http;
 using System.Web.Http.Routing;
-using Widgets.Repository;
+using Widgets.Data;
 
 namespace Widgets.Models
 {

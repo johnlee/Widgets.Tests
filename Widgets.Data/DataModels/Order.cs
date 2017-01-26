@@ -1,4 +1,4 @@
-﻿namespace Widgets.Repository
+﻿namespace Widgets.Data
 {
     public class Order
     {

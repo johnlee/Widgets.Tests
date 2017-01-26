@@ -1,12 +1,12 @@
-﻿namespace Widgets.Repository.MockData
+﻿namespace Widgets.Data
 {
-    public class MockRepository : IRepository
+    public class Repository : IRepository
     {
         public IOrderRepository Orders
         {
             get
             {
-                return new MockOrderRepository();
+                return new OrderRepository();
             }
         }
 
@@ -14,7 +14,7 @@
         {
             get
             {
-                return new MockWidgetRepository();
+                return new WidgetRepository();
             }
         }
     }

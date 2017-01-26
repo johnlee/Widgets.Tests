@@ -1,11 +1,15 @@
 ﻿using System.Linq;
 using System.Web.Http;
+using Widgets.Data;
 using Widgets.Models;
 
 namespace Widgets.Controllers.Api
 {
     public class ProductsController : BaseController
     {
+        // Constructor captures the repository from dependency injection
+        public ProductsController(IRepository repository) : base(repository) { }
+
         // GET: api/Products
         public object Get()
         {

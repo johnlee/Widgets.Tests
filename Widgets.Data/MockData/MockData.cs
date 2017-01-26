@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Widgets.Repository.MockData
+namespace Widgets.Data
 {
     public static class MockData
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Widgets.Repository
+namespace Widgets.Data
 {
     public interface IWidgetRepository
     {

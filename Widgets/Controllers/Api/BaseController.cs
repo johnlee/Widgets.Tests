@@ -1,7 +1,6 @@
 ﻿using System.Web.Http;
+using Widgets.Data;
 using Widgets.Models;
-using Widgets.Repository;
-using Widgets.Repository.MockData;
 
 namespace Widgets.Controllers.Api
 {
@@ -10,9 +9,9 @@ namespace Widgets.Controllers.Api
         IRepository _repository;
         ModelFactory _factory;
 
-        public BaseController()
+        public BaseController(IRepository repository)
         {
-            _repository = new MockRepository(); // Using MockData 
+            _repository = repository; // getting the repository container using dependency injection
         }
 
         protected IRepository Repository
