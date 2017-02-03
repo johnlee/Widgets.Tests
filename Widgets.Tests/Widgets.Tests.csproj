@@ -76,10 +76,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Controllers\Api\ProductsTests.cs" />
+    <Compile Include="Controllers\Api\OrdersTests.cs" />
     <Compile Include="Mocks\MockData.cs" />
     <Compile Include="Mocks\MockHttpConfiguration.cs" />
     <Compile Include="Mocks\MockOrderRepository.cs" />
     <Compile Include="Mocks\MockRepository.cs" />
+    <Compile Include="Mocks\MockUser.cs" />
     <Compile Include="Mocks\MockWidgetRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -88,9 +91,16 @@
       <Project>{71F3A13A-44B7-4D38-8370-27DAEF6902A4}</Project>
       <Name>Widgets.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Widgets\Widgets.csproj">
+      <Project>{BD56BC0E-8261-4E65-995A-23BA3479D94E}</Project>
+      <Name>Widgets</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\Web\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

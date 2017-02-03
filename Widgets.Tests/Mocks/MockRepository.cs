@@ -2,7 +2,7 @@
 
 namespace Widgets.Tests.Mocks
 {
-    public class Repository : IRepository
+    public class MockRepository : IRepository
     {
         public IOrderRepository Orders
         {
